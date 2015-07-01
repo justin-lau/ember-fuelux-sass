@@ -1,0 +1,6 @@
+@import "bower_components/fuelux-sass/assets/stylesheets/fuelux/variables";
+
+// override fuelux font path
+$fueluxFontPath: "./fonts/";
+
+@import "bower_components/fuelux-sass/assets/stylesheets/fuelux";
