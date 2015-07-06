@@ -1,0 +1,4 @@
+<label class="checkbox-custom {{if checked 'checked'}} {{if disabled 'disabled'}}" data-initialize="checkbox">
+  {{input class="sr-only" type="checkbox" checked=checked disabled=disabled}}
+  <span class="checkbox-label">{{yield}}</span>
+</label>
